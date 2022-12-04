@@ -1,0 +1,13 @@
+<% if(keySuccess && keySuccess.length){ %>   
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <%= keySuccess %> 
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+    <% } %> 
+
+<% if(keyErr && keyErr.length){ %> 
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <%= keyErr %> 
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+    <% } %> 
